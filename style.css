@@ -1,0 +1,108 @@
+.homepage.index #homepage-section1 {
+    align-items:center;
+    background-size:cover;
+    background-image: url("los-angeles_1.png");
+    min-height:45vw;
+}
+
+.display-flex {
+    display:flex;
+}
+
+.white-text {
+    /* color:white; */
+    font-family: "Archivo Black";
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+
+  #homepage-section1 .container {
+      background-color: rgba(255, 255, 255, 0.726);
+      padding: 10px;
+  }
+
+  .navbar {
+      background-color: rgba(185, 185, 185, 0.2);
+  }
+
+  .btn-outline-dark {
+      border-radius:0;
+      border-width: 2px;
+  }
+
+  .media {
+      display: inline-flex;
+      list-style-type: none;
+  }
+
+  .red-container {
+      background-color: rgb(0, 155, 222);
+  }
+
+  .red-container h1 {
+      color: white;
+      font-size: 80px;
+      text-align:center;
+      padding-top:10px;
+  }
+
+  .red-border {
+      border:solid 2px #009de0;
+  }
+
+  #homepage-section2 {
+      background-color: rgba(185, 185, 185, 0.2);
+      padding: 100px;
+  }
+
+  #homepage-section3 {
+      /* background-color: rgba(0,155,222,0.2); */
+      padding:100px;
+  }
+
+  #homepage-section4 .bg-footer, #homepage-section6 .bg-footer {
+      background-color: #363636;
+      color:white;
+      padding:50px;
+  }
+
+  .flex-space-around .triangle {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 40px 120px 0 120px;
+      border-color: #363636 transparent transparent transparent;
+      margin-bottom: 20px;
+  }
+
+  .flex-space-around {
+    display: flex !important;
+    justify-content: space-around;
+  }
+
+  .section2 h6 {
+      padding: 20px;
+  }
+  .media img {
+      padding-left:10px;
+      padding-right:10px;
+  }
+
+  .footer.bg-footer {
+      background-color: rgba(185, 185, 185, 0.2);
+  }
+
+  .bg-brand {
+      background-color:#009de0;
+  }
