@@ -1,0 +1,401 @@
+.homepage.index #homepage-section1 {
+    align-items: center;
+    background-size: cover;
+    background-image: url("/img/DTLAdenim.jpg");
+    min-height: 45vw;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.strong {
+    font-weight: 600;
+}
+
+.white-text {
+    /* color:white; */
+    font-family: "Montserrat";
+}
+
+h4.white-text a,
+.panel {
+    color: white;
+}
+
+.btn-outline-light.more {
+    margin-top: 10px;
+}
+
+.media img {
+    margin-top: 5px;
+}
+
+.media.bottom img {
+    margin-top: 20px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.app-btn {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#homepage-section1 .container {
+    /* letter-spacing:1px; */
+    padding: 10px;
+    color: white;
+}
+
+h1.strong {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 3.5em;
+}
+
+#stats-number-container img {
+    margin: 5px;
+}
+
+.navbar {
+    /* background-color: rgba(185, 185, 185, 0.2); */
+    background-color: #363636;
+}
+
+.btn-outline-dark,
+.btn-outline-light {
+    border-radius: 0;
+    border-width: 2px;
+}
+
+.media {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.red-container {
+    background-color: rgb(0, 155, 222);
+}
+
+.red-container h1 {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.red-border {
+    border: solid 2px #009de0;
+}
+
+#homepage-section2, #homepage-section7 {
+    background-color: rgba(185, 185, 185, 0.2);
+    padding: 30px;
+}
+
+#homepage-section3 {
+    /* background-color: rgba(0,155,222,0.2); */
+    padding-bottom: 50px;
+}
+
+#homepage-section4 .bg-footer,
+#homepage-section6 .bg-footer {
+    background-color: #363636;
+    color: white;
+    padding: 50px;
+}
+
+.flex-space-around .triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 40px 120px 0 120px;
+    border-color: #363636 transparent transparent transparent;
+    margin-bottom: 20px;
+}
+
+.flex-space-around {
+    display: flex !important;
+    justify-content: space-around;
+}
+
+.section2 h6 {
+    padding: 20px;
+}
+
+.media img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer.bg-footer {
+    background-color: #363636;
+}
+
+.bg-brand {
+    background-color: #009de0;
+}
+
+ul.media {
+    margin: 0;
+}
+
+h5 {
+    margin: 0;
+}
+
+.display-flex a {
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+    font-family: "Montserrat"
+}
+
+.btn.btn-outline-light {
+    color: rgb(255, 255, 255);
+}
+
+.btn.btn-outline-light:hover {
+    color: rgb(36, 36, 36);
+}
+
+ul.media.bottom {
+    padding-top: 40px;
+}
+
+.obama-quote {
+    font-family: "Montserrat";
+    color: rgb(91, 91, 91);
+    padding: 30px;
+}
+
+.obama-quote span {
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+
+.line-break {
+    margin: auto;
+}
+
+.homepage.index #homepage-section3 #connecting-opportunities-bg {
+    background-image: url('/img/new-opp.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 200px;
+}
+
+.homepage.index #homepage-section3 #tech-education-bg {
+    background-image: url('/img/techedu.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 200px;
+}
+
+.homepage.index #homepage-section3 #inclusive-tech-bg {
+    background-image: url('/img/inclusivetech.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 200px;
+}
+
+.brand-white-text a {
+    color: white;
+}
+
+.students div.panel-body {
+    margin-left: 20px;
+}
+
+.panel-footer, .students div.panel-body {
+    padding-bottom: 10px;
+    padding:10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.section2 h4,
+.bg-footer {
+    font-family: 'Montserrat';
+}
+
+#homepage-section3 h1 {
+    font-family: 'Montserrat';
+}
+
+.scholarships {
+    background-color: #009de0;
+    color: white;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+.homepage.index #homepage-section6 #nisa-bg {
+    background-image: url('/img/NisaK.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+}
+
+.homepage.index #homepage-section6 #ruby-bg {
+    background-image: url('/img/EddieC.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+}
+
+.homepage.index #homepage-section6 #gio-bg {
+    background-image: url('/img/RubyR.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+}
+
+.scholarships h2 {
+    margin-bottom:0;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+em span {
+    color:#009de0;
+}
+
+.btn-outline-light.students {
+    margin-top:10px;
+}
+
+.footer-text {
+    font-size:10px;
+}
+
+.footer-print h5 {
+    color:white;
+    line-height:40px;
+}
+.footer-print {
+    margin-top:20px;
+}
+
+.form-control {
+    border-radius:0;
+}
+
+form {
+    font-family:'Montserrat';
+    font-weight:bold;
+}
+
+.form-control:focus {
+    border-color:#009de0;
+    outline:none !important;
+    box-shadow: 0 0 10px #009de0;
+}
+
+.btn-lg {
+    border-radius:0;
+    background-color:#009de0;
+    color:white;
+}
+
+a.obamaQuote, .scholarships a {
+    text-decoration: none;
+    color:white;
+}
+
+.panel.bg-brand.border-none {
+    margin-bottom: 50px;
+}
+
+.white-text.box {
+    background-color:rgba(0, 0, 0, 0.6);
+    padding:5px;
+}
+/* 
+ul.media {
+    float:right;
+} */
+
+@media (min-width: 992px)
+ {
+    ul.media {
+        float:right;
+    }
+    
+    .grant {
+        align:justify;
+    }
+ 
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    ul.media.top {
+        display:none;
+    }
+
+    .obama-quote {
+        padding:0;
+    }
+
+    #homepage-section4 h4 {
+        margin-bottom:20px;
+    }
+
+    .students .panel-body br {
+        display:none;
+    }
+
+    img.ypilogo {
+        width:50%;
+    }
+    ul.media.bottom {
+        padding-top:0;
+        width:80%;
+        margin:auto;
+    }
+ }
+
+ @media (max-width: 575px) {
+     ul.media.top {
+         display:none;
+         width:100%;
+     }
+
+     #heading-container {
+         width:100%;
+     }
+
+     .obama-quote {
+         padding:0;
+     }
+     
+    #homepage-section4 h4 {
+        margin-bottom:30px;
+    }
+    .students .panel-body br {
+        display:none;
+    }
+    img.ypilogo {
+        width:50%;
+        margin:auto;
+    }
+    ul.media.bottom {
+        padding-top:0;
+        width:80%;
+        margin:auto;
+    }
+ }
