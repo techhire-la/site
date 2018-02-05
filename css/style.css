@@ -1,7 +1,7 @@
 .homepage.index #homepage-section1 {
     align-items: center;
     background-size: cover;
-    background-image: url("/img/DTLAdenim.jpg");
+    /* background-image: url("/img/dtladenim.jpg"); */
     min-height: 45vw;
 }
 
@@ -51,6 +51,7 @@ h4.white-text a,
 .app-btn {
     margin: auto;
     margin-bottom: 20px;
+    margin-top:20px;
 }
 
 #homepage-section1 .container {
@@ -86,7 +87,7 @@ h1.strong {
 }
 
 .red-container {
-    background-color: rgb(0, 155, 222);
+    background-color: #009bde;
 }
 
 .red-container h1 {
@@ -97,7 +98,7 @@ h1.strong {
 }
 
 .red-border {
-    border: solid 2px #009de0;
+    border: solid 2px #009bde;
 }
 
 #homepage-section2, #homepage-section7 {
@@ -145,7 +146,7 @@ h1.strong {
 }
 
 .bg-brand {
-    background-color: #009de0;
+    background-color: #009bde;
 }
 
 ul.media {
@@ -190,7 +191,7 @@ ul.media.bottom {
 }
 
 .homepage.index #homepage-section3 #connecting-opportunities-bg {
-    background-image: url('/img/new-opp.jpg');
+    /* background-image: url('/img/new-opp.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -198,7 +199,7 @@ ul.media.bottom {
 }
 
 .homepage.index #homepage-section3 #tech-education-bg {
-    background-image: url('/img/techedu.jpg');
+    /* background-image: url('/img/techedu.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -206,7 +207,7 @@ ul.media.bottom {
 }
 
 .homepage.index #homepage-section3 #inclusive-tech-bg {
-    background-image: url('/img/inclusivetech.jpg');
+    /* background-image: url('/img/inclusivetech.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -238,28 +239,28 @@ ul.media.bottom {
 }
 
 .scholarships {
-    background-color: #009de0;
+    background-color: #009bde;
     color: white;
     font-family: 'Montserrat';
     text-align: center;
 }
 
 .homepage.index #homepage-section6 #nisa-bg {
-    background-image: url('/img/NisaK.png');
+    /* background-image: url('/img/nisaK.png'); */
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 300px;
 }
 
 .homepage.index #homepage-section6 #ruby-bg {
-    background-image: url('/img/EddieC.png');
+    /* background-image: url('/img/eddieC.png'); */
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 300px;
 }
 
 .homepage.index #homepage-section6 #gio-bg {
-    background-image: url('/img/RubyR.png');
+    /* background-image: url('/img/rubyR.png'); */
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 300px;
@@ -272,7 +273,7 @@ ul.media.bottom {
 }
 
 em span {
-    color:#009de0;
+    color:#009bde;
 }
 
 .btn-outline-light.students {
@@ -301,15 +302,20 @@ form {
 }
 
 .form-control:focus {
-    border-color:#009de0;
+    border-color:#009bde;
     outline:none !important;
-    box-shadow: 0 0 10px #009de0;
+    box-shadow: 0 0 10px #009bde;
 }
 
-.btn-lg {
+.btn-lg, input#mc-embedded-subscribe.button.subscribe {
     border-radius:0;
-    background-color:#009de0;
+    background-color:#009bde;
     color:white;
+}
+
+input#mc-embedded-subscribe.button.subscribe:hover {
+    color:#009bde;
+    background-color:white;
 }
 
 a.obamaQuote, .scholarships a {
@@ -325,10 +331,8 @@ a.obamaQuote, .scholarships a {
     background-color:rgba(0, 0, 0, 0.6);
     padding:5px;
 }
-/* 
-ul.media {
-    float:right;
-} */
+
+/* media queries */
 
 @media (min-width: 992px)
  {
@@ -337,7 +341,7 @@ ul.media {
     }
     
     .grant {
-        align:justify;
+        text-align:justify;
     }
  
 }
@@ -366,6 +370,7 @@ ul.media {
         padding-top:0;
         width:80%;
         margin:auto;
+        padding-left:0px;
     }
  }
 
@@ -397,5 +402,13 @@ ul.media {
         padding-top:0;
         width:80%;
         margin:auto;
+    }
+
+    #homepage-section3 h1 {
+        font-size:2.4em;
+    }
+
+    .obama-quote .strong {
+        font-size:.8em;
     }
  }
