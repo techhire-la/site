@@ -18,6 +18,10 @@
     font-family: "Montserrat";
 }
 
+.panel.panel-default.bg-brand {
+    position: relative;
+}
+
 h4.white-text a,
 .panel {
     color: white;
@@ -25,6 +29,9 @@ h4.white-text a,
 
 .btn-outline-light.more {
     margin-top: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
 }
 
 .media img {
@@ -51,7 +58,7 @@ h4.white-text a,
 .app-btn {
     margin: auto;
     margin-bottom: 20px;
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 #homepage-section1 .container {
@@ -101,7 +108,8 @@ h1.strong {
     border: solid 2px #009bde;
 }
 
-#homepage-section2, #homepage-section7 {
+#homepage-section2,
+#homepage-section7 {
     background-color: rgba(185, 185, 185, 0.2);
     padding: 30px;
 }
@@ -222,9 +230,10 @@ ul.media.bottom {
     margin-left: 20px;
 }
 
-.panel-footer, .students div.panel-body {
+.panel-footer,
+.students div.panel-body {
     padding-bottom: 10px;
-    padding:10px;
+    padding: 10px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -267,60 +276,67 @@ ul.media.bottom {
 }
 
 .scholarships h2 {
-    margin-bottom:0;
-    padding-top:10px;
-    padding-bottom:10px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.panel-footer div.brand-white-text.bottom-margin-md {
+    padding-bottom: 80px;
 }
 
 em span {
-    color:#009bde;
+    color: #009bde;
 }
 
 .btn-outline-light.students {
-    margin-top:10px;
+    margin-top: 10px;
 }
 
 .footer-text {
-    font-size:10px;
+    font-size: 10px;
 }
 
 .footer-print h5 {
-    color:white;
-    line-height:40px;
+    color: white;
+    line-height: 40px;
 }
+
 .footer-print {
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 .form-control {
-    border-radius:0;
+    border-radius: 0;
 }
 
 form {
-    font-family:'Montserrat';
-    font-weight:bold;
+    font-family: 'Montserrat';
+    font-weight: bold;
 }
 
 .form-control:focus {
-    border-color:#009bde;
-    outline:none !important;
+    border-color: #009bde;
+    outline: none !important;
     box-shadow: 0 0 10px #009bde;
 }
 
-.btn-lg, input#mc-embedded-subscribe.button.subscribe {
-    border-radius:0;
-    background-color:#009bde;
-    color:white;
+.btn-lg,
+input#mc-embedded-subscribe.button.subscribe {
+    border-radius: 0;
+    background-color: #009bde;
+    color: white;
 }
 
 input#mc-embedded-subscribe.button.subscribe:hover {
-    color:#009bde;
-    background-color:white;
+    color: #009bde;
+    background-color: white;
 }
 
-a.obamaQuote, .scholarships a {
+a.obamaQuote,
+.scholarships a {
     text-decoration: none;
-    color:white;
+    color: white;
 }
 
 .panel.bg-brand.border-none {
@@ -328,87 +344,89 @@ a.obamaQuote, .scholarships a {
 }
 
 .white-text.box {
-    background-color:rgba(0, 0, 0, 0.6);
-    padding:5px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px;
+}
+
+form#mc-embedded-subscribe-form input.required:focus {
+    border: 1px solid #009bde !important;
+    box-shadow: 0 0 3px #009bde !important;
+    -moz-box-shadow: 0 0 3px #009bde !important;
+    -webkit-box-shadow: 0 0 3px #009bde !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline-offset: 0px !important;
+    outline: none !important;
 }
 
 /* media queries */
 
-@media (min-width: 992px)
- {
+@media (min-width: 992px) {
     ul.media {
-        float:right;
+        float: right;
     }
-    
     .grant {
-        text-align:justify;
+        text-align: justify;
     }
- 
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
     ul.media.top {
-        display:none;
+        display: none;
     }
-
     .obama-quote {
-        padding:0;
+        padding: 0;
     }
-
     #homepage-section4 h4 {
-        margin-bottom:20px;
-    }
-
-    .students .panel-body br {
-        display:none;
-    }
-
-    img.ypilogo {
-        width:50%;
-    }
-    ul.media.bottom {
-        padding-top:0;
-        width:80%;
-        margin:auto;
-        padding-left:0px;
-    }
- }
-
- @media (max-width: 575px) {
-     ul.media.top {
-         display:none;
-         width:100%;
-     }
-
-     #heading-container {
-         width:100%;
-     }
-
-     .obama-quote {
-         padding:0;
-     }
-     
-    #homepage-section4 h4 {
-        margin-bottom:30px;
+        margin-bottom: 20px;
     }
     .students .panel-body br {
-        display:none;
+        display: none;
     }
     img.ypilogo {
-        width:50%;
-        margin:auto;
+        width: 50%;
     }
     ul.media.bottom {
-        padding-top:0;
-        width:80%;
-        margin:auto;
+        padding-top: 0;
+        width: 80%;
+        margin: auto;
+        padding-left: 0px;
     }
+}
 
+@media (max-width: 575px) {
+    ul.media.top {
+        display: none;
+        width: 100%;
+    }
+    #heading-container {
+        width: 100%;
+    }
+    .obama-quote {
+        padding: 0;
+    }
+    #homepage-section4 h4 {
+        margin-bottom: 30px;
+    }
+    .students .panel-body br {
+        display: none;
+    }
+    img.ypilogo {
+        width: 50%;
+        margin: auto;
+    }
+    ul.media.bottom {
+        padding-top: 0;
+        width: 80%;
+        margin: auto;
+    }
     #homepage-section3 h1 {
-        font-size:2.4em;
+        font-size: 2.4em;
     }
-
     .obama-quote .strong {
-        font-size:.8em;
+        font-size: .8em;
     }
- }
+}
