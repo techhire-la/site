@@ -13,6 +13,14 @@
     font-weight: 600;
 }
 
+#homepage-section1 .btn-outline-light {
+    background-color:rgba(0, 0, 0, 0.6);
+}
+
+#homepage-section1 .btn-outline-light:hover {
+    background-color:white;
+}
+
 .white-text {
     /* color:white; */
     font-family: "Montserrat";
@@ -282,7 +290,7 @@ ul.media.bottom {
 }
 
 .panel-footer div.brand-white-text.bottom-margin-md {
-    padding-bottom: 80px;
+    padding-bottom: 50px;
 }
 
 em span {
@@ -373,7 +381,7 @@ select:focus {
     }
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 800px) {
     ul.media.top {
         display: none;
     }
@@ -394,7 +402,12 @@ select:focus {
         width: 80%;
         margin: auto;
         padding-left: 0px;
+        display:initial;
     }
+    .media.bottom img {
+        margin-top:0px;
+    }
+
 }
 
 @media (max-width: 575px) {
