@@ -370,6 +370,10 @@ select:focus {
     outline: none !important;
 }
 
+.obama-quote:hover {
+    box-shadow: 3px 3px 3px 3px #009bdeb3;
+}
+
 /* media queries */
 
 @media (min-width: 992px) {
