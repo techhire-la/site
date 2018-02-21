@@ -370,8 +370,20 @@ select:focus {
     outline: none !important;
 }
 
+.obama-quote {
+    transition: box-shadow 0.4s;
+}
+
 .obama-quote:hover {
-    box-shadow: 3px 3px 3px 3px #009bdeb3;
+    box-shadow: 3px 10px 10px -1px rgba(0, 155, 222, 0.7);
+}
+
+.scholarships {
+    transition: background-color 0.4s;
+}
+.scholarships:hover, .scholarships h2:hover {
+    background-color:white;
+    color:rgb(48, 48, 48);
 }
 
 /* media queries */
