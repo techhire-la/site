@@ -114,6 +114,11 @@ small {
   font-size: 80%;
 }
 
+small-plus {
+  font-size: 90%;
+}
+
+
 sub,
 sup {
   position: relative;
