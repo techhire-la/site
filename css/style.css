@@ -255,12 +255,39 @@ ul.media.bottom {
     font-family: 'Montserrat';
 }
 
-.scholarships {
+.form-banners{
     background-color: #009bde;
     color: white;
     font-family: 'Montserrat';
     text-align: center;
 }
+
+#scholarships {
+    border-style: solid;
+    border-bottom: 0px;
+    /* background-color: #009bde;
+    color: white;
+    font-family: 'Montserrat';
+    text-align: center; */
+}
+
+#volunteer {
+    border-style: solid;
+    background-color: #009bde;
+    color: white;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+#industry-partner {
+    border-style: solid;
+    border-top: 0px;
+    background-color: #009bde;
+    color: white;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
 
 .homepage.index #homepage-section6 #nisa-bg {
     /* background-image: url('/img/nisaK.png'); */
@@ -283,7 +310,7 @@ ul.media.bottom {
     min-height: 300px;
 }
 
-.scholarships h2 {
+.form-banners h2 {
     margin-bottom: 0;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -342,7 +369,7 @@ input#mc-embedded-subscribe.button.subscribe:hover {
 }
 
 a.obamaQuote,
-.scholarships a {
+.form-banners a {
     text-decoration: none;
     color: white;
 }
@@ -378,11 +405,12 @@ select:focus {
     box-shadow: 6px 6px 28px 10px rgba(48, 48, 48, 0.742);
 }
 
-.scholarships {
+.form-banners {
     transition: background-color 0.4s;
 }
-.scholarships:hover, .scholarships h2:hover {
-    background-color:white;
+.form-banners:hover, .form-banners h2:hover {
+    /* background-color:white; */
+    background-color: #eeeeee;
     color:rgb(48, 48, 48);
 }
 
