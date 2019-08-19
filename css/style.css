@@ -257,7 +257,8 @@ ul.media.bottom {
 
 .form-banners{
     background-color: #009bde;
-    color: white;
+    /* color: white; */
+    color: black;
     font-family: 'Montserrat';
     text-align: center;
 }
@@ -265,7 +266,9 @@ ul.media.bottom {
 #scholarships {
     border-style: solid;
     border-bottom: 0px;
+    color: black;
     /* background-color: #009bde;
+    
     color: white;
     font-family: 'Montserrat';
     text-align: center; */
@@ -274,7 +277,8 @@ ul.media.bottom {
 #volunteer {
     border-style: solid;
     background-color: #009bde;
-    color: white;
+    /* color: white; */
+    color: black;
     font-family: 'Montserrat';
     text-align: center;
 }
@@ -283,7 +287,8 @@ ul.media.bottom {
     border-style: solid;
     border-top: 0px;
     background-color: #009bde;
-    color: white;
+    /* color: white; */
+    color: black;
     font-family: 'Montserrat';
     text-align: center;
 }
@@ -410,7 +415,8 @@ select:focus {
 }
 .form-banners:hover, .form-banners h2:hover {
     /* background-color:white; */
-    background-color: #eeeeee;
+    /* background-color: #eeeeee; */
+    background-color: #fff;
     color:rgb(48, 48, 48);
 }
 
